@@ -5,7 +5,7 @@ from firebase_admin import credentials, auth
 app = Flask(__name__)
 
 # Initialize the Firebase Admin SDK
-cred = credentials.Certificate('/home/dojjo/CoderX/daily-gist-9bc06-firebase-adminsdk-ahsjf-0099ec91e7.json')
+cred = credentials.Certificate('daily-gist-9bc06-firebase-adminsdk-ahsjf-0099ec91e7.json')
 default_app = firebase_admin.initialize_app(cred)
 
 # Endpoint For Deleting Users
