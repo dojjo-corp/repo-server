@@ -10,7 +10,7 @@ default_app = firebase_admin.initialize_app(cred)
 
 @app.route('/')
 def hello():
-    return 'Hello World!'
+    return 'Hello, World!'
 
 
 # Endpoint For Deleting Users
