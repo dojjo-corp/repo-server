@@ -28,5 +28,6 @@ def delete_user():
     except auth.AuthError as e:
         return jsonify({'success': False, 'message': f'Error deleting user: {e}'})
 
+
 if __name__ == '__main__':
     app.run(debug=True)
